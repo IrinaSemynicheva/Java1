@@ -16,7 +16,7 @@ public class Lesson2 {
     }
 
     static boolean within10and20 (int a, int b) {
-        return  (a + b > 10 && a + b <= 20? true:false);
+        return 10 < a + b <= 20;
     }
 
     static void isPositiveOrNegative (int c) {
@@ -24,12 +24,12 @@ public class Lesson2 {
     }
 
     static boolean isNegative (int d) {
-        return (d > 0? true : false);
+        return d > 0;
     }
 
-    static void printWordNTimes () {
-        for (int i = 0; i < 6; i++) {
-            System.out.println ("Good day!");
+    static void printWordNTimes (String a, int count) {
+        for (int i = 0; i < count; i++) {
+            System.out.println (a);
         }
     }
 }
